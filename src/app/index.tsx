@@ -1,8 +1,9 @@
-import { StyleSheet, Text, View } from "react-native";
+import MapView from '@/app/MapView';
+import { StyleSheet, View } from "react-native";
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Edit src/app/index.tsx to edit this screen.</Text>
+      <MapView/>
     </View>
   );
 }
