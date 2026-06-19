@@ -1,9 +1,9 @@
 {
   "expo": {
     "name": "serveapp",
-    "slug": "serveapp",
+    "slug": "serve-app",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "landscape",
     "icon": "./assets/images/icon.png",
     "scheme": "serveapp",
     "userInterfaceStyle": "automatic",
@@ -34,11 +34,20 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-asset"
+      
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "60e8368a-6bd5-462a-a239-d0a5beab413a"
+      }
+    },
+    "owner": "stfyi"
   }
 }
