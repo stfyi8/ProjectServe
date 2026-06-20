@@ -1,5 +1,5 @@
-import mapOfSST from '@/assets/images/Map.png';
-import pt1 from '@/assets/images/Point.png';
+import mapOfSST from '@/assets/images/map/Map.png';
+import pt1 from '@/assets/images/map/Point1.png';
 import { Link } from 'expo-router';
 import { Image, ImageBackground, StyleSheet, useWindowDimensions, View } from 'react-native';
 
